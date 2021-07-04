@@ -1,12 +1,14 @@
 body {
   display: flex;
   font: 14px 'Century Gothic', Futura, sans-serif;
-  /* background: linear-gradient(45deg, gold, dodgerblue); */
+  background: linear-gradient(90deg, darkorchid, dodgerblue);
 }
 
 ol,
 ul {
   padding-left: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .board-row:after {
@@ -23,15 +25,15 @@ ul {
   background: dodgerblue;
   border: 1px solid black;
   float: left;
-  font-size: 50px;
+  font-size: 85px;
   font-weight: bold;
-  line-height: 75px;
-  height: 75px;
+  line-height: 120px;
+  height: 120px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 75px;
+  width: 120px;
 }
 
 .square:focus {
@@ -43,15 +45,18 @@ ul {
 }
 
 .game-info {
-  color: darkorchid;
+  color: black;
   font-size: 30px;
-  font-weight: bold;
   text-align: center;
   margin-top: 20px;
+  position: relative;
+  top: 200px;
 }
 
 .game-board {
   margin-top: 20px;
+  position: relative;
+  top: 120px;
 }
 
 html,
@@ -60,8 +65,13 @@ body,
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+}
+
+.status {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-weight: bold;
+  position: relative;
+  top: -40px;
 }
