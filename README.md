@@ -12,3 +12,7 @@ Through the completion of this tutorial I was able to gain a greater understandi
 * Using the **this** keyword
 * Managing state
 * React hooks inlcuding useState and useEffect(not implemented in final project, but used during it's creation)
+
+
+## Application Preview
+![Application Preview](src/images/tic-tac-toe-preview.png)
