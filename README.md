@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 ## Project Information
 This app was created following alongside the official tutorial from ReactJS that can be found here: [React Tutorial](https://reactjs.org/tutorial/tutorial.html).
-The application was deployed with Vercel and can be interacted with the following link:  [Tic-Tac-Toe](https://tic-tac-toe-lake-mu.vercel.app/)
+The application was deployed with Vercel and can be interacted with at the following link:  [Tic-Tac-Toe](https://tic-tac-toe-lake-mu.vercel.app/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project Goals
